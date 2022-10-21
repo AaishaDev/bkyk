@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@700&family=Lato:wght@400;700&display=swap');
+
+:root {
+    --purple: #905E96;
+    --black: #393939;
+    --green: #8EB091
+}
+
+*{
+    font-family: 'Lato';
+    padding: 0;
+    margin: 0;
+    color: white;
+    box-sizing: border;
+    scroll-behavior: smooth;
+   
+}
+a{
+    text-decoration: none;
+    border: none;
+}
+button{
+    border: none;
+}
+.wrapper{
+    max-width: 1100px;
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.25rem;
+    padding: 1rem;
+
+}
+nav .icon{
+    margin: 1rem;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.logo img{
+    width: 80px;
+height: 80px;
+}
+.logo p{
+    color: #905E96;
+    font-size: 1.2rem;
+    
+}
+.menus{
+    display: flex;
+    align-items: center;
+}
+.menus p a{
+    font-weight: 900;
+font-size: 1rem;
+    margin: 0 1rem 0 1rem;
+    color: #A79C9C;
+
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.hero .content{
+    margin-top: 12.5rem;
+}
+.hero .heading{
+    font-family: 'Frank Ruhl Libre';
+font-style: normal;
+font-weight: 700;
+font-size: 4.8rem;
+line-height: 4.8rem;
+color: var(--purple);
+}
+.hero .subheading{
+    font-style: normal;
+font-weight: 500;
+font-size: 1.5rem;
+/* line-height: 35px; */
+color:#A79C9C;
+margin: 1.25rem 0 3.1rem 0;
+}
+.hero .btn{
+    display: flex;
+    background:var(--black);
+    color: white;
+    align-content: center;
+    padding: 1rem;
+    justify-content: center;
+    width: 60%;
+}
+.hero .btn__text{
+    padding: 0.2rem;
+    margin-left: 0.5rem;
+    align-self: center;
+}
+.hero .images{
+    display: flex;
+    margin-top: 7.5rem;
+}
+.hero .img1{
+    max-width: 14.3rem;
+    height: 15.6rem;
+}
+.hero .img2{
+    max-width: 16rem;
+    height: 21.8rem;
+    position: relative;
+    top: 10rem;
+}
+.quiz__section{
+    background-color: var(--purple);
+    margin-top: 5rem;
+    padding: 1rem;
+}
+.quiz{
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 0;
+}
+
+.quiz .heading{
+    font-family: 'Frank Ruhl Libre';
+font-style: normal;
+font-weight: 700;
+font-size: 3rem;
+
+}
+.quiz .subheading{
+    font-weight: 500;
+font-size: 1.25rem;
+line-height: 2.1rem;
+}
+.time__left{
+    display: flex;
+    gap: 1rem;
+}
+.upcoming{
+    font-size: 2rem;
+    font-weight: 900;
+    padding-top: 1rem;
+
+}
+.quiz .box{
+    background-color: white;
+    color: var(--purple);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    margin-top: 1rem;
+
+}
+.quiz .box p,.small{
+    color: var(--purple);
+    
+     
+}
+
+.quiz .box .small{
+    /* margin: 0 1rem 1rem 1rem; */
+    color: var(--black);
+    font-weight: 400;
+
+}
+.quiz .btn{
+    margin-top: 2.5rem;
+    background:var(--black);
+    color: white;
+    padding: 1.4rem;
+}
+.quiz .image{
+    max-width: 31.1rem;
+    height: 26.1;
+}
+.prize__section{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 1rem;
+}
+.prize__heading{
+    margin: 3rem 0 3rem 0; 
+font-family: 'Frank Ruhl Libre';
+font-style: normal;
+font-weight: 700;
+font-size: 4.25rem;
+color: var(--black);
+text-align: center;
+}
+.prize,.alt__prize {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.prize__content{
+    width: 30rem;
+}
+.prize .box{
+    width: 32.7rem;
+    /* height: 34.3rem; */
+    background-color: var(--purple);
+    padding: 4rem;
+    position: relative;
+    left: -4rem;
+}
+.alt__prize .box{
+    width: 23rem;
+    
+    background-color: var(--green);
+    padding: 4rem 4rem 4rem 6rem;
+    position: relative;
+    right: -4rem;
+}
+.prize,.alt__prize .heading{
+    font-weight: 700;
+    font-size: 2.5rem;
+
+}
+.prize,.alt__prize .content{
+    /* font-weight: 600;
+font-size:2rem ; */
+margin: 0.5rem 0 0.5rem 0;
+
+}
+.prize,.alt__prize,.last__prize__content  .name p{
+    font-weight: 900;
+font-size: 2.5rem;
+
+}
+
+
+.line{
+    width:7rem;
+    border-radius: 7px;
+    border: 2px solid white;
+    margin-top: 1rem;
+    background-color: white;
+}
+.last__prize__content  .box{
+    width: 32.7rem;
+    /* height: 34.3rem; */
+    background-color: var(--green);
+    padding: 4rem;
+    margin-left: 4rem;
+    z-index: 1;
+    width: 26rem;
+    
+   
+}
+
+.last__prize__content  .content{
+    /* font-weight: 600;
+font-size:2rem ; */
+margin: 0.5rem 0 0.5rem 0;
+
+}
+.last__prize__content{
+    align-self: center;
+}
+.last__prize__content .box{
+   margin: 0;
+   font-size: 2rem;
+   font-weight: 700;
+}
+footer{
+    background-color: var(--black);
+    text-align: center;
+    padding-bottom: 3rem;
+    
+}
+.footer{
+    display: flex;
+    padding: 4rem;
+    gap: 3rem;
+    justify-content: center;
+    align-items: self-start;
+}
+.footer .about{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.back_to_top{
+    display: flex;
+    gap: 0.7rem;
+}
+
+
+@media screen and (max-width: 900px) {
+    html {
+      font-size: 10px !important;
+    }
+    .quiz img{
+        width: 100%;
+    }
+   /* .prize,.alt__prize img{
+    width: 75%;
+    height: 70%;
+   } */
+   .prize> img{
+    width: 75%;
+    height: 70%;
+   }
+   .alt__prize> img{
+    width: 75%;
+    height: 70%;
+   }
+   .last__prize__content .box{
+    text-align: -webkit-center;
+   
+   }
+}
+
+
+@media screen and (max-width: 480px) {
+    .logo img{
+        transform: scale(0.7)
+    }
+    nav{
+        margin-top: 0;
+        box-shadow: 0 4px 8px 0 rgb(0 0 0 / 0%), 0 6px 20px 0 rgb(0 0 0 / 11%);
+        padding: 0;
+
+      
+    }
+    .menus{
+        display: none;
+        background: grey;
+    color: black;
+    width: 30vh;
+    height: 25vh;
+    position: absolute;
+    /* float: right; */
+    right: 1rem;
+   padding: 2rem 0;
+    top: 6rem;
+    }
+    .menus p{
+        text-align: center;
+        margin: 3rem;
+    }
+    .menus p a{
+        color: white;
+   
+    font-size: 1.5rem;
+    margin-top: 21rem;
+        
+
+    }
+    .hero{
+        flex-direction: column-reverse;
+    }
+    .hero .images {
+        margin-top: 0.5rem;
+        justify-content: space-around;
+    }
+    
+    
+    .img1{
+        display: none;
+    }
+    .img2{
+        max-width: 100% !important ;
+        height: 100% !important;
+        position: unset !important;
+
+    }
+    .hero .content{
+        margin-top: 4.5rem;
+    }
+    .hero .subheading{
+        font-size: 1.2rem;
+    }
+    .hero .images{
+        margin-top: 1.5rem;
+    }
+    .quiz img{
+        display: none;
+    }
+    .prize .box{
+        padding: 1rem 1.5rem
+    }
+    .alt__prize .box{
+        padding: 1rem 1.5rem;
+        width: 16rem;
+        margin-left: 4rem;
+    }
+    
+    .prize> img{
+        width: 130%;
+    height: auto;
+    }
+    .prize .prize__content{
+        width: 33rem;
+    }
+    .box{
+        font-size: 1.5rem;
+    }
+
+    .last__prize__content .box{
+        padding: 2rem 1rem;
+    }
+    .back_to_top{
+        flex-direction: column;
+        gap: 1.3rem;
+    }
+}
