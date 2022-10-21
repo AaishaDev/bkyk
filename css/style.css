@@ -36,6 +36,7 @@ nav{
 }
 nav .icon{
     margin: 1rem;
+    display: none;
 }
 .logo{
     display: flex;
@@ -333,6 +334,10 @@ footer{
         padding: 0;
 
       
+    }
+    nav .icon{
+        margin: 1rem;
+        display: block;
     }
     .menus{
         display: none;
