@@ -335,6 +335,9 @@ footer{
 
       
     }
+    .logo p{
+        font-size: 1.5rem;
+    }
     nav .icon{
         margin: 1rem;
         display: block;
@@ -408,6 +411,9 @@ footer{
     }
     .prize .prize__content{
         width: 33rem;
+    }
+    .line{
+        margin-top: 0.4rem;
     }
     .box{
         font-size: 1.5rem;
