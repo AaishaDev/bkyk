@@ -65,6 +65,9 @@ font-size: 1rem;
     color: #A79C9C;
 
 }
+.menus p a:hover{
+    color: #76347d;
+}
 .hero{
     display: flex;
     justify-content: space-between;
