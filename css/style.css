@@ -91,7 +91,7 @@ font-size: 1.5rem;
 /* line-height: 35px; */
 color:#A79C9C;
 margin: 1.25rem 0 3.1rem 0;
-text-align: center;
+/* text-align: center; */
 }
 .hero .btn{
     display: flex;
@@ -295,6 +295,22 @@ margin: 0.5rem 0 0.5rem 0;
     font-weight: 600;
 }
 .certificate img{
+    width: 100%;
+}
+.trust{
+    background-color: var(--green);
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 2rem;
+    align-items: center;
+
+}
+.trust p{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+.trust img{
     width: 100%;
 }
 footer{
